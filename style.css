@@ -1,0 +1,169 @@
+.banner-image {
+    height: 400px;
+    width: 350px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.a {
+    font-size: x-large;
+}
+
+.b {
+    font-size: xx-large;
+}
+
+.btn {
+    padding: 8px 12px;
+    border: 2px solid orange;
+    color: orange;
+    font-weight: bold;
+    border-radius: 7px;
+    transition-duration: 1s;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.mary-a {
+    color: orangered;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lavender;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.7s;
+}
+
+.nav-link a:hover {
+    color: red;
+}
+
+.nav-single {
+    margin-right: 15px;
+}
+
+.aboutMe-sction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    padding: 50px 0px;
+    margin: 10px 100px;
+}
+
+.p {
+    width: 490px;
+}
+
+.about-sub-section {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+
+.WhatIDo-text{
+    text-align: center;
+}
+
+.image-details img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.image-details div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image-details{
+    display: flex;
+    justify-content: center;
+}
+
+
+.resume-container{
+    margin: 0 260px;
+}
+
+.section-title{
+    margin: 60px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.resume-column-title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: gray;
+}
+
+.resume-item-description{
+    width: 480px;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-section {
+    margin-bottom: 20px; 
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px; 
+}
+
