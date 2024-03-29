@@ -73,6 +73,10 @@
     margin: 10px 100px;
 }
 
+.a-s-s-p{
+    text-align: center;
+}
+
 .p {
     width: 490px;
 }
@@ -188,6 +192,18 @@
         align-items: center;
     }
 
+    .p {
+        width: 300px;
+        text-align: justify;
+    }
+
+    .about-sub-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
     .image-details {
         flex-direction: column;
         justify-content: center;
@@ -202,6 +218,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .resume-item-description{
+        width: 300px;
     }
     
 
