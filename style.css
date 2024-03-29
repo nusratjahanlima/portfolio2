@@ -43,6 +43,11 @@
     background-color: lavender;
 }
 
+.nav-link {
+    display: flex;
+}
+
+
 .nav-link a {
     text-decoration: none;
     color: black;
@@ -78,7 +83,7 @@
     width: 700px;
 }
 
-.WhatIDo-text{
+.WhatIDo-text {
     text-align: center;
 }
 
@@ -90,23 +95,23 @@
     border-radius: 4px;
 }
 
-.image-details div{
+.image-details div {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin: 20px;
     padding: 10px;
 }
 
-.image-details{
+.image-details {
     display: flex;
     justify-content: center;
 }
 
 
-.resume-container{
+.resume-container {
     margin: 0 260px;
 }
 
-.section-title{
+.section-title {
     margin: 60px;
     text-align: center;
     font-weight: 900;
@@ -137,7 +142,7 @@
     color: gray;
 }
 
-.resume-item-description{
+.resume-item-description {
     width: 480px;
 }
 
@@ -146,16 +151,12 @@
 }
 
 
-#footer {
+.footer-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 60px;
-}
-
-.footer-section {
-    margin-bottom: 20px; 
 }
 
 .social-links {
@@ -164,6 +165,73 @@
 }
 
 .social-links a {
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
+
+@media only screen and (max-width: 640px) {
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        flex-direction: column;
+    }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .aboutMe-sction {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-left: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 900px) {
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .about-sub-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-left: 20px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
